@@ -1,0 +1,61 @@
+body {
+  background: white;
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: black;
+  min-width: 320px;
+  padding: 0;
+  margin: 0;
+}
+
+.project {
+  height: 500px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project--cat-energy {
+  background: #65a93c;
+  background: url("img/index-background-desktop@1x.jpg") center right no-repeat, #65a93c;
+  background-size: contain;
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .project--cat-energy {
+    background: url("img/index-background-desktop@2x.jpg") center right no-repeat, #65a93c;
+    background-size: 500px auto, auto;
+  }
+}
+
+.project--keksobooking {
+  background: url("img/map.png");
+}
+
+.project__title {
+  font-size: 40px;
+}
+
+.project__description {
+  max-width: 700px;
+}
+
+.project__link {
+  border: 2px solid black;
+  padding: 10px;
+  min-width: 200px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+.project__link:hover {
+  background: black;
+  color: white;
+}
+
