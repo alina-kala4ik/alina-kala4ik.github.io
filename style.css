@@ -36,6 +36,11 @@ body {
   background: url("img/map.png");
 }
 
+.project--kekstagram {
+  background: url("img/white-smartphone-1851415.jpg");
+  background-size: contain;
+}
+
 .project__title {
   font-size: 40px;
 }
