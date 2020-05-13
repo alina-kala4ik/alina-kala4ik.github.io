@@ -40,6 +40,22 @@ body {
   background: url("img/white-smartphone-1851415.jpg");
 }
 
+.project--сinemaddict {
+  background: url("./img/background.png");
+  background-size: contain;
+  color: white;
+}
+
+.project--сinemaddict .project__link {
+  color: white;
+  border-color: white;
+}
+
+.project--сinemaddict .project__link:hover {
+  background: white;
+  color: black;
+}
+
 .project__title {
   font-size: 40px;
 }
