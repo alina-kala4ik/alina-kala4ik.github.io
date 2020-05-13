@@ -42,7 +42,7 @@ body {
 
 .project--сinemaddict {
   background: url("./img/background.png");
-  background-size: contain;
+  background-size: cover;
   color: white;
 }
 
