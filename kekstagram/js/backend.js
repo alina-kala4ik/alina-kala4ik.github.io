@@ -3,7 +3,7 @@
 (function () {
 
   // const URL_GET_DATA = 'https://js.dump.academy/kekstagram/data';
-  const URL_GET_DATA = './../data.json';
+  const URL_GET_DATA = 'https://alina-kala4ik.github.io/kekstagram/data.json';
   const URL_POST_DATA = 'https://js.dump.academy/kekstagram';
   const CODE_SUCCESS = 200;
 
