@@ -46,6 +46,11 @@ body {
   color: white;
 }
 
+.project--wtw {
+  background: linear-gradient(to right, #544a7d, #ffd452);
+  background-size: cover;
+}
+
 .project--сinemaddict .project__link {
   color: white;
   border-color: white;
